@@ -46,15 +46,10 @@ jobs:
     name: Markdown Lint
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout Repository
         uses: actions/checkout@v3
-      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "18.x"
-      - name: Install markdownlint-cli
         run: |
           npm install --save-dev markdownlint-cli@0.34.x
-      - name: Run Markdownlint
         run: npx markdownlint "**/*.md"
-
