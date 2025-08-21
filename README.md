@@ -1,12 +1,40 @@
-# React + Vite
+# Chikoro ERP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> An ERP for school management
+> Includes a home page, blog, and admin/student dashboard
 
-Currently, two official plugins are available:
+## Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `React` front end.
+- `Redux` state management.
+- `Ant` react UI library.
 
-## Expanding the ESLint configuration
+## Code Quality
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To maintain good quality code we used 3 linters.
+
+- `Markdown Lint` - For all Markdown documents, as well as for the blog.
+- `ES Lint` - using AirBnB ES style.
+- `Style Lint` - for CSS.
+
+## Authors
+
+👤 **Tinaye 天蓝 Wolfgang**
+
+- GitHub: [GitHub](https://github.com/tinatsina)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tinayetsina/)
+- Email: [tinaye.tsinakwadi@uni.li](mailto:tinaye.tsinakwadi@uni.li)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [WTFPL](./LICENSE) licensed.
