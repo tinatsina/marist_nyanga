@@ -54,4 +54,5 @@ jobs:
       - name: Setup Markdownlint
         run: |
           npm install --save-dev markdownlint-cli@0.34.x
-
+      - name: Markdownlint Report
+        run: npx markdownlint "**/*.md"
